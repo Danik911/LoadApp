@@ -29,16 +29,19 @@
         app:layout_constraintVertical_bias="0.26">
 
         <RadioButton
+            android:id="@+id/r_btn_glide"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="https://github.com/bumptech/glide" />
 
         <RadioButton
+            android:id="@+id/r_btn_project"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="https://github.com/udacity/nd940-c3-advanced-android-programming-project-starter" />
 
         <RadioButton
+            android:id="@+id/r_btn_retrofit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="https://github.com/square/retrofit" />
