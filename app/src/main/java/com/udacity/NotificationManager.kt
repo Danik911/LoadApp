@@ -17,7 +17,7 @@ fun NotificationManager.sendNotification(
 ) {
     val detailActivityIntent = Intent(context, DetailActivity::class.java)
     detailActivityIntent.putExtra(DETAIL_ACTIVITY_KEY, status)
-    detailActivityIntent.putExtra(DETAIL_ACTIVITY_FILENAME_KEY, status)
+    detailActivityIntent.putExtra(DETAIL_ACTIVITY_FILENAME_KEY, fileName)
 
     val buttonPendingIntent = PendingIntent.getActivity(
         context,
